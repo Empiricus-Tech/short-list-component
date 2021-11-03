@@ -52,7 +52,7 @@ public class ShortListView: UIView {
     // MARK: - Views
     lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.font = .systemFont(ofSize: 18)
+        label.font = .systemFont(ofSize: 16, weight: .bold)
         label.textColor = UIColor.black
         label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
