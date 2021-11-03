@@ -13,6 +13,8 @@
 		412277802732F35200706E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4122777E2732F35200706E4A /* Main.storyboard */; };
 		412277822732F35400706E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412277812732F35400706E4A /* Assets.xcassets */; };
 		412277852732F35400706E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412277832732F35400706E4A /* LaunchScreen.storyboard */; };
+		4122778D2732F73E00706E4A /* ShortListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4122778C2732F73E00706E4A /* ShortListView.swift */; };
+		4122778F2732F91B00706E4A /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4122778E2732F91B00706E4A /* UIView+Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		412277812732F35400706E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412277842732F35400706E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		412277862732F35400706E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4122778C2732F73E00706E4A /* ShortListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortListView.swift; sourceTree = "<group>"; };
+		4122778E2732F91B00706E4A /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				412277812732F35400706E4A /* Assets.xcassets */,
 				412277832732F35400706E4A /* LaunchScreen.storyboard */,
 				412277862732F35400706E4A /* Info.plist */,
+				4122778C2732F73E00706E4A /* ShortListView.swift */,
+				4122778E2732F91B00706E4A /* UIView+Constraints.swift */,
 			);
 			path = ShortList;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4122777D2732F35200706E4A /* ViewController.swift in Sources */,
+				4122778D2732F73E00706E4A /* ShortListView.swift in Sources */,
+				4122778F2732F91B00706E4A /* UIView+Constraints.swift in Sources */,
 				412277792732F35200706E4A /* AppDelegate.swift in Sources */,
 				4122777B2732F35200706E4A /* SceneDelegate.swift in Sources */,
 			);
